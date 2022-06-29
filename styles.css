@@ -1,0 +1,80 @@
+.flashing {
+    font-size: 5em;
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 0.15rem;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+    animation: animate 
+        1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.ptext {
+    text-align: center;
+}
+#thumbs {
+    margin: 3vh;
+    display: flex;
+    width: 20vw;
+    height: 40vh;
+}
+#form {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    background-color: rgb(114, 41, 177);
+    width: 40vw;
+    height: 50vh;
+}
+#center {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+#red {
+    font-weight: bolder;
+    color: rgb(254, 58, 58);
+}
+#timer-div{
+    display: flex;
+    background-color:#419D78;
+    color:#EFD0CA;
+    font-size:40px;
+    text-align:center;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+  }
+body {
+    background-color: rgb(169, 169, 169)
+}
+
+footer {
+    margin: 5vh;
+}
