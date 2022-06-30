@@ -17,7 +17,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 app.get('/', (req, res) => {
-    functionThatExist();
+    functionThatDontExist();
+    rollbar.critical("Sending a critical error")
 })
 
 app.get('/css', (req, res) => {
